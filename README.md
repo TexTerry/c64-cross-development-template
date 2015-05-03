@@ -74,4 +74,4 @@ Basic-Start-Routine, but more will come. :-)
 ### tools
 
 Here you'll find a couple of bash-scripts to suit recurring tasks. For example
-`bin2basicdata.sh` converts binary data to BASIC data-lines.
+`bin2basicdata` converts binary data to BASIC data-lines.
