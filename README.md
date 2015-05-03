@@ -1,7 +1,7 @@
 C64-Cross-Development README
 ============================
 
-(C) 2014, Marcel Dümmel marcel.duemmel@aquasign.net
+(C) 2015, Marcel Dümmel marcel.duemmel@aquasign.net
 
 
 0. Introduction
@@ -49,7 +49,7 @@ in the next section.
 
 To run the assembled binaries, run the command
 
-$ scripts/startemulator
+$ tools/startemulator
 
 which will call the VICE-Emulator and automatically mount the `drive`-directory
 as device no. 8 within the emulated c64-system. Now you can load your program
@@ -58,4 +58,20 @@ by typing
 LOAD "PROGRAMNAME",8,1
 
 
+4. Goodies
+----------
 
+The directories `lib` and `tools` (will) provide additional functionality to
+provide you with a little convenience:
+
+
+### lib 
+
+Here you'll find some assembler routines. Currently there's only a little
+Basic-Start-Routine, but more will come. :-)
+
+
+### tools
+
+Here you'll find a couple of bash-scripts to suit recurring tasks. For example
+`bin2basicdata.sh` converts binary data to BASIC data-lines.

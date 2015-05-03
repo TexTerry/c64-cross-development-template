@@ -32,7 +32,7 @@
 ; POSSIBILITY OF SUCH DAMAGE.
 
 	;Linenumber for the basicstart-routine
- 	basicstart_row = 42
+	basicstart_row = 42
 
 	;Textstring for the basicstart-routine
         !macro  basicstart_text{ !pet "dont panic" }
